@@ -1,0 +1,78 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#nav, .sub-nav {
+    list-style-type: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color : #fff;
+    text-transform: uppercase;
+}
+#nav li a {
+    text-decoration: none;
+    padding: 0 24px;
+    line-height: 46px;
+    display: inline-block;
+}
+
+#nav > li:hover > a ,
+#nav .sub-nav li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .sub-nav {
+    display : none;
+    min-width: 160px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav li:hover .sub-nav {
+    display: block;
+}
+
+#nav .sub-nav a {
+    color: #000;
+    padding: 0 24px 0 12px;
+    line-height: 38px;
+}
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
